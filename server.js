@@ -13,7 +13,7 @@ app.use(cors());
 app.use(bodyParser.json());
 
 // ✅ Serve frontend files from /frontend
-app.use(express.static(path.join(__dirname, '../frontend')));
+//app.use(express.static(path.join(__dirname, '../frontend')));
 
 // ✅ Serve index.html for GET /
 app.get('/', (req, res) => {
