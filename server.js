@@ -16,9 +16,9 @@ app.use(bodyParser.json());
 //app.use(express.static(path.join(__dirname, '../frontend')));
 
 // ✅ Serve index.html for GET /
-app.get('/', (req, res) => {
+/*app.get('/', (req, res) => {
   res.sendFile(path.join(__dirname, '../frontend/index.html'));
-});
+});*/
 
 // ✅ Rule-based diagnosis route
 app.post('/diagnose', (req, res) => {
